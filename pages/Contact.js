@@ -1,13 +1,17 @@
 import React, { useState} from "react";
-// import send  from 'emailjs';
 import Image from 'next/image'
-import useAlert  from 'react-alert'
+import {useAlert } from 'react-alert'
 import Head from 'next/head'
+import{ init } from 'emailjs-com';
+import {send } from 'emailjs-com';
+
 
 
 export default function Contact(props) {
 
-//   const alert = useAlert();
+  init("user_7C0DFfICeBZunE5mWt757");
+
+  const alert = useAlert();
 
 
 
