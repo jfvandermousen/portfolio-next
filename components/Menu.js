@@ -25,7 +25,7 @@ const Menu = () => {
     return (
         <div className="above">
         <div className=" navBar flex flex-row justify-end" >
-            <Hamburger  duration={1}  onToggle={()=>setShowMenu(!showMenu) }  />
+            <Hamburger  duration={1}  toggled={showMenu} toggle={setShowMenu} />
         </div>
         {menu}
         </div>
