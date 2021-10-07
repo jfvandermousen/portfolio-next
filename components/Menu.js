@@ -6,8 +6,6 @@ import Link from "next/link"
 
 const Menu = () => {
     const [showMenu,setShowMenu] = useState(false);
-    // const [isOpen, setOpen] = useState(false)
-
     
     let menu
     
@@ -27,7 +25,7 @@ const Menu = () => {
     return (
         <div className="above">
         <div className=" navBar flex flex-row justify-end" >
-            <Hamburger  duration={1}  toggled={showMenu} toggle={setShowMenu}  />
+            <Hamburger  duration={1}  toggled={showMenu} toggle={setShowMenu} />
         </div>
         {menu }
         </div>
