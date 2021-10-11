@@ -1,4 +1,4 @@
-// src/data.js
+
 
 export const projects = [
     {

@@ -1,13 +1,17 @@
 import React, { useState} from "react";
-// import send  from 'emailjs';
 import Image from 'next/image'
-import useAlert  from 'react-alert'
+import {useAlert } from 'react-alert'
 import Head from 'next/head'
+import{ init } from 'emailjs-com';
+import {send } from 'emailjs-com';
+
 
 
 export default function Contact(props) {
 
-//   const alert = useAlert();
+  init("user_7C0DFfICeBZunE5mWt757");
+
+  const alert = useAlert();
 
 
 
@@ -22,8 +26,6 @@ export default function Contact(props) {
 
     e.preventDefault();
 
-    
-    
     send(
       'service_7kfojnv',
       'template_svdwo9m',
@@ -48,8 +50,6 @@ export default function Contact(props) {
 
   }
 
-
-  
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
@@ -61,9 +61,9 @@ export default function Contact(props) {
         <Head>
         <title>Jf Vandermousen - Contact</title>
          </Head>
-      <h3 className="mb-6 text-xl">You can reach me by :</h3>
-      <div className="two-windows flex flex-row flex-wrap justify-between w-full pr-4">
-        
+            <h3 className="mb-6 text-xl">You can reach me by :</h3>
+            <div className="two-windows flex flex-row flex-wrap justify-between w-full pr-4">
+              
           <div className="window w-full mb-6 lg:w-4/12  lg:mr-12">
           <div className=" flex flex-row flex-wrap items-center mb-4  ">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mr-3 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
