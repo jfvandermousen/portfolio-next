@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Squash as Hamburger } from 'hamburger-react'
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade'
 import Link from "next/link"
 
 

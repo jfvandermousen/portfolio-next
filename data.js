@@ -52,8 +52,20 @@ export const projects = [
         image: "./img/blog.png",
       link: "https://next-blogpage.vercel.app/",
     },
+
+      {
+        id: 6,
+      title: "ToDo App",
+      subtitle: "Mobile Design - Figma",
+      catgeory :"Figma",
+      description:
+        "ToDo App design with Figma ",
+       image: "./img/todo-app-design.jpg",
+       link: "https://www.figma.com/file/JfpBjczmjUDxSoqFk7tNUt/Mobile-Design---TO-DO-APP?node-id=0%3A1",
+      },
+      ,
     {
-      id: 6,
+      id: 7,
       title: "RegALE",
       subtitle: "Wordpress",
       catgeory :"wordpress",
@@ -61,7 +73,7 @@ export const projects = [
       image: "./img/regale.jpg",
       link: "https://regalenetwork.eu",
     },
-
+      
       {
         id: 8,
       title: "The open",
