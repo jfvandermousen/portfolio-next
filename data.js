@@ -63,7 +63,6 @@ export const projects = [
        image: "./img/todo-app-design.jpg",
        link: "https://www.figma.com/file/JfpBjczmjUDxSoqFk7tNUt/Mobile-Design---TO-DO-APP?node-id=0%3A1",
       },
-      ,
     {
       id: 7,
       title: "RegALE",
@@ -82,7 +81,7 @@ export const projects = [
       description:
         "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
        image: "./img/the-open.jpg",
-       link: "",
+       link: "https://theopen.be/",
       }
 
   ];
