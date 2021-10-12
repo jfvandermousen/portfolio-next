@@ -59,7 +59,7 @@ export const projects = [
       subtitle: "Mobile Design - Figma",
       catgeory :"Figma",
       description:
-        "ToDo App design with Figma ",
+        "ToDo App design in Figma with Home screen, login, register and dashboard screen",
        image: "./img/todo-app-design.jpg",
        link: "https://www.figma.com/file/JfpBjczmjUDxSoqFk7tNUt/Mobile-Design---TO-DO-APP?node-id=0%3A1",
       },

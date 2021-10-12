@@ -2,7 +2,7 @@ import React, { useState} from "react";
 import Image from 'next/image'
 import {useAlert } from 'react-alert'
 import Head from 'next/head'
-import{ init } from 'emailjs-com';
+import { init } from 'emailjs-com';
 import {send } from 'emailjs-com';
 
 
