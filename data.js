@@ -75,6 +75,18 @@ export const projects = [
       
       {
         id: 8,
+      title: "Logement pour tous",
+      subtitle: "Wordpress",
+      catgeory :"wordpress",
+      description:
+      "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
+       image: "./img/lpt.jpg",
+       link: "https://logementpourtous.be",
+      }
+      ,
+      
+      {
+        id: 9,
       title: "The open",
       subtitle: "Wordpress",
       catgeory :"wordpress",
