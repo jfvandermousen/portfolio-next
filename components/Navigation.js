@@ -6,7 +6,7 @@ import Menu from "./Menu";
 
 
 
-const Navigation =() =>{
+const Navigation =() => {
         
         useEffect(()=>{
             let y = window.innerWidth;
