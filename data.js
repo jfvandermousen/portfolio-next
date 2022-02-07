@@ -34,7 +34,7 @@ export const projects = [
     },
     {
       id: 4,
-      title: "Eloquent Javscript Ebook",
+      title: "Eloquent Javascript Ebook",
       subtitle: "Landing page",
       catgeory :"Html, Bootstrap, Sass,",
       description:
