@@ -34,13 +34,13 @@ export const projects = [
     },
     {
       id: 4,
-      title: "The Plug and Play",
-      subtitle: "Home page",
-      catgeory :"Html,CSS, Sass",
+      title: "Eloquent Javscript Ebook",
+      subtitle: "Landing page",
+      catgeory :"Html, Bootstrap, Sass,",
       description:
-        "Home page visual in Html,CSS using Flexbox,Saas and material icons",
-       image: "./img/plug.png",
-      link: "https://jfvandermousen.github.io/turlututu",
+        "Landing page build with Bootstrap 5,Saas and JS",
+       image: "./img/eloquent-js.png",
+      link: "https://jfvandermousen.github.io/landing-page/",
     },
     {
       id: 5,
