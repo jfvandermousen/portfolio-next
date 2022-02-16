@@ -9,9 +9,9 @@ import Menu from "./Menu";
 const Navigation =() => {
         
         useEffect(()=>{
-            let y = window.innerWidth;
+            // let y = window.innerWidth;
              //let negY = ( -y  ); // => -100
-            gsap.from('.logo', {x:y, duration: 1.2, ease: "sine.out"})
+            gsap.from('.logo', {duration: 1.2, ease: "sine.out", x:1920, y :400})
              //console.log(negY)
         },[])
 
