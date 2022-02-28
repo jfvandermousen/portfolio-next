@@ -16,13 +16,7 @@ export default function Home() {
         <title>Jf Vandermousen - Portfolio</title>
       </Head>
       <About/>
-      <AnimWorks/>
-      {/*<div>
-       *<Fade bottom delay={11000}>
-        <Works />
-        </Fade>
-      </div>   */}      
-
+      <AnimWorks/>    
     </>
   )
 }

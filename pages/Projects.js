@@ -1,10 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
 import { projects } from '../data';
+import Fade from 'react-reveal/Fade';
 
 
 export default function Projects() {
     return (
+        <Fade bottom delay={1}>
         <div>
         <Head>
         <title>Jf Vandermousen - Projects</title>
@@ -48,5 +50,6 @@ export default function Projects() {
   </section>
 
     </div>
+    </Fade>
     )
 }

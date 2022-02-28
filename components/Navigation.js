@@ -11,7 +11,7 @@ const Navigation =() => {
         useEffect(()=>{
             // let y = window.innerWidth;
              //let negY = ( -y  ); // => -100
-            gsap.from('.logo', {duration: 1.2, ease: "sine.out", x:1920, y :400})
+            gsap.from('.logo', {duration: 1.2, ease: "sine.out", x:1920, y :1080, scale:25})
              //console.log(negY)
         },[])
 

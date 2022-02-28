@@ -6,8 +6,9 @@ import { projects } from '../data';
 const AnimWorks = () => {
 
     useEffect(()=>{
-        gsap.from('.card-project', {duration: 5,opacity:0, border:"2px solid white"})
+        gsap.from('.card-project', {duration: 3, opacity:0, x:"random(-300,300)",stagger:0.5});
     },[])
+    
     
 
 

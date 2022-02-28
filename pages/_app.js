@@ -21,18 +21,15 @@
   function MyApp({ Component, pageProps }) {
     return (
       <>
-      <AlertProvider template={AlertTemplate} {...options}>
-      <Background className="bg"/>
-      <div className="container mx-auto px-8 pt-8">
-            
-              <Navigation/>
-              <Component {...pageProps} />
-            </div>
-            <Fade bottom delay={11500}>
-            <Footer/>
-            </Fade>
-            </AlertProvider>
-            </>
+          <AlertProvider template={AlertTemplate} {...options}>
+          <Background className="bg"/>
+          <div className="container mx-auto px-8 pt-8">
+                <Navigation/>
+                <Component {...pageProps} />
+          </div>
+          <Footer/>
+          </AlertProvider>
+      </>
           )
   }
 
