@@ -22,11 +22,11 @@ const Navigation =() => {
             </div>
             <Menu />
 
-                        <ul className=" main-nav flex flex-row">
-                                <Link href="/"><li><b className="text-xl" href="#">Home</b></li></Link> 
-                                <Link href="/Projects" ><li><b  className="text-xl" >Projects</b></li></Link> 
-                                <Link href="/Contact" ><li><b  className="text-xl">Contact</b></li></Link> 
-                        </ul>
+                    <ul className=" main-nav flex flex-row">
+                            <Link href="/"><li><b className="text-xl" href="#">Home</b></li></Link> 
+                            <Link href="/Projects" ><li><b  className="text-xl" >Projects</b></li></Link> 
+                            <Link href="/Contact" ><li><b  className="text-xl">Contact</b></li></Link> 
+                    </ul>
 
         </div>
     )

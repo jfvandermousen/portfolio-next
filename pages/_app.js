@@ -29,7 +29,7 @@
               <Component {...pageProps} />
             </div>
             <Fade bottom delay={11500}>
-            <Footer/>
+              <Footer/>
             </Fade>
             </AlertProvider>
             </>

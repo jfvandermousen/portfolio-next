@@ -13,7 +13,8 @@ const About = () => {
                     startDelay: 1500,
                     loop:  false,
                     disableBackTyping: true,
-                    strings: ["I am currently looking for a Junior Web Developer position in a creative company to develop and improve my skills."]
+                    strings: ["Hi ! My name is JF Vandermousen",
+                   " I am a passionate Junior Frontend Developer  with an eye for UX/UI Design and I am currently looking for a position in a creative company to develop and improve my skills."]
                 });
             },[]);
 
@@ -24,7 +25,7 @@ const About = () => {
             <div className="mb-2"><h3 className="text-2xl mb-4 lg:text-3xl">$whoami</h3></div>
             <div className="intro" > 
                 <h1 className="text-2xl">Jf Vandermousen</h1>
-                <h2>Creative Frontend Developer</h2>
+                <h2>Frontend Developer</h2>
             </div>
         </section>
         <section className="about mb-4">
