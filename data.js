@@ -3,23 +3,24 @@
 export const projects = [
     {
       id: 1,
-      title: "Pinning Travel Map",
-      subtitle: "MERN Stack",
+      title: "Chevy",
+      subtitle: "Animated Navigation",
       catgeory :"WebDev",
       description:
-        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB.",
-      image: "./img/pinmap.png",
-      link: "https://pin-travel-map.herokuapp.com/",
+        "Animated Menu Navigation build with GSAP Timeline",
+      image: "./img/vintage-menu.jpg",
+      link: "https://jfvandermousen.github.io/vintage-chevy",
     },
+
     {
-      id: 2,
-      title: "ImmoEliza",
-      subtitle: "Prediction API",
-      catgeory :"APP",
-      description:
-        "Creation of a form with an API allowing to predict the price of a house. Project realized with the R&D/AI department of Becode",
-        image: "./img/immoeliza.png",
-      link: "https://immo-dev.netlify.app",
+    id: 2,
+    title: "Logement pour tous",
+    subtitle: "Wordpress",
+    catgeory :"wordpress",
+    description:
+    "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
+     image: "./img/lpt.jpg",
+     link: "https://logementpourtous.be",
     },
 
     {
@@ -73,16 +74,16 @@ export const projects = [
       link: "https://regalenetwork.eu",
     },
       
-      {
-        id: 8,
-      title: "Logement pour tous",
-      subtitle: "Wordpress",
-      catgeory :"wordpress",
+    {
+      id: 8,
+      title: "ImmoEliza",
+      subtitle: "Prediction API",
+      catgeory :"APP",
       description:
-      "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
-       image: "./img/lpt.jpg",
-       link: "https://logementpourtous.be",
-      }
+        "Creation of a form with an API allowing to predict the price of a house. Project realized with the R&D/AI department of Becode",
+        image: "./img/immoeliza.png",
+      link: "https://immo-dev.netlify.app",
+    }
       ,
       
       {
@@ -94,7 +95,17 @@ export const projects = [
         "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
        image: "./img/the-open.jpg",
        link: "https://theopen.be/",
-      }
+      },
+      { 
+      id: 10,
+      title: "Pinning Travel Map",
+      subtitle: "MERN Stack",
+      catgeory :"WebDev",
+      description:
+        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB.",
+      image: "./img/pinmap.png",
+      link: "https://pin-travel-map.herokuapp.com/",
+    }
 
   ];
 
